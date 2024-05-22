@@ -1,0 +1,16 @@
+.MyButton {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: aqua;
+  border: none;
+}
+
+.MyButton:hover {
+  transform: scale(1.1);
+  transition: 300ms ease-in;
+  background: linear-gradient(rgb(255, 3, 247), rgb(2, 2, 171));
+}
