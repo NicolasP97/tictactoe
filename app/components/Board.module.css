@@ -12,3 +12,19 @@
   text-align: center;
   width: 34px;
 }
+
+.boardrow:after {
+  clear: both;
+  content: "";
+  display: table;
+  background-color: red;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
